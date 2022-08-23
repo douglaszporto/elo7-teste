@@ -8,7 +8,7 @@ npm i
 npm run dev
 ```
 
-### Instruções geraia
+### Instruções gerais
 
 - Utilizei Svelte. Posso ter deixado algum aspcto passar desapercebido, pois foi basicamente meu "hello world" com esta lib. Por sinal, gostei bastante :D
 
