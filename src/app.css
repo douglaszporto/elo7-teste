@@ -1,0 +1,55 @@
+:root {
+  --themeBgColor: #fff;
+  --themeFontColor: #414141;
+  --themePrimaryColor: #f9a90e;
+  --themeSecondaryColor: #359c9c;
+  --themeOpacityColor: rgba(0,0,0, 0.05);
+  --themeOpacityHoverColor: rgba(0,0,0, 0.1);
+  --themeInternalMarging: 20px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+
+  color-scheme: light dark;
+  color: var(--themeFontColor, #414141);
+  background-color: var(--themeBgColor, #fff);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --themeBgColor: #333;
+    --themeFontColor: #b3b3b3;
+    --themeOpacityColor: rgba(255,255,255, 0.05);
+    --themeOpacityHoverColor: rgba(255,255,255, 0.1);
+  }
+}
+
+@media (min-width: 700px) {
+  :root {
+    --themeInternalMarging: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --themeInternalMarging: 50px;
+  }
+}
